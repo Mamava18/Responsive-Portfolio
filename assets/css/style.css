@@ -198,6 +198,41 @@ button{
         width: 100%;
     }
 
+    #masthead{
+        width: 100%;
+        margin-left: -8px;
+        margin-top: -8px;
+    }
+
+    #logo{
+        float: left;
+        margin: 0 30px 0 30px;
+    }
+
+    nav{
+        float: right;
+        margin-top: 30px;
+        margin-right: 10px;
+        overflow: auto;
+    }
+
+    .maincontent{
+        width: 600px;
+        float: left;
+        margin-left: 30px;
+    }
+
+    .image-set{
+        width: 45%;
+        
+   }
+
+   .image-set h3{
+        font-size: 16px;
+        font-weight: 150px;
+        line-height: 10px;  
+   }
+
 }
 
 @media screen and (max-width: 768px){
@@ -205,12 +240,38 @@ button{
         width: 100%;
     }
 
+    #masthead{
+        width: 100%;
+        margin-left: -8px;
+        margin-top: -8px;
+    }
+
+    #logo{
+        width: 40%;
+        float: left;
+        margin: 0 30px 0 10px;
+    }
+
+    nav{
+        width: 42%;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .maincontent{
+        width: 100%;
+    }
+
+    .image-set{
+        width: 310px;
+        margin: 20px 0 25px 10px;
+    }
+
 }
 
 @media screen and (max-width: 640px){
     .container{
         width: 100%;
-        
     }   
 
     #masthead{
