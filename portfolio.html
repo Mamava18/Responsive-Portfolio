@@ -1,0 +1,75 @@
+<!--This html code is to write a paragraph about myself-->
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<!--Metadata for program includes name of project and links to the css file(s)-->
+    <head>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>My first porfolio project About Me</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+<!--Body holds the entire content of the web page, it will be separated into three child sections: Header, Container, Footer-->
+    <body>
+
+        <!--The header is the first container or block of the web page, this will be the same for all three pages. There are two elements (boxes) inside this header wrapper, the name container and the navigation container.-->
+        <header id="masthead">
+                <div class="container">
+                    <!--Heading 1 with class name represents the first element of the header-->
+                    <a href="index.html" id="logo">Alicia Martinez</a>
+                    <!--This div is for the navigation bar which is part of the header-->
+                    <nav class="navigation">
+                    <!--This unordered list is to create the elements of the navigation bar-->
+                        <a href="index.html">About</a></li> |
+                        <a href="portfolio.html" target="_blank">Portfolio</a></li> |
+                        <a href="contact.html" target="_blank">Contact</a></li>
+                    </nav>         
+                </div>
+        </header>
+       
+        <!--This div is the wrapper that contains the main content box, this wrapper extends to the complete height of the content section.-->
+        <div class="container" id="main-container">
+            <!--The maincontent div is a container for the contents title, images and text-->
+            <section class="maincontent">
+                <h1><strong>Portfolio</strong></h1>
+                <!--The image set div isa container for each image and the box with the title of the image so the images can be positioned 
+                relative inside the gallery-set container and the title box can be positioned on the image.-->
+                <div class="image-set">
+                    <img src="assets/images/birds.jpg" alt="Flying Birds"/>
+                    <h3>Flying Birds</h3v>
+                </div>
+
+                <div class="image-set">
+                    <img src="assets/images/ducks.jpg" alt="Ducklings"/>
+                    <h3 class="title-img">Ducklings</h3>
+                </div>
+                    
+                <div class="image-set">
+                    <img src="assets/images/niagara.jpg" alt="Niagara Falls"/>
+                    <h3>Niagara Falls</h3>
+                </div>
+
+                <div class="image-set">
+                    <img src="assets/images/skyline.jpg" alt="Skyline"/>
+                    <h3>New York Skyline</h3>
+                </div>   
+                    
+                <div class="image-set">
+                    <img src="assets/images/maelstrom.jpg" alt="Saturn Storm"/>
+                    <h3>Saturn Storm</h3>
+                </div>
+                        
+            </section>
+        </div>
+    </div>
+
+        <!--This footer is shared by all three pages and is a sticky footer, which means will remain at the bottom of the page regardless of wether the page expands or shrinks.-->
+        <footer>
+            <div class="container">
+                    Copyright&copy;
+                </div>
+        </footer>
+
+    </body>
+</html>
